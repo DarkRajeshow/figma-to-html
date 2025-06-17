@@ -347,10 +347,6 @@
 
 /* Extra Large devices (large desktops, 1280px and up) */
 @media (min-width: 1280px) and (max-width: 1535px) {
-    .element-travels-home .top-navigations {
-        @apply w-[88%] left-[6%];
-    }
-
     .element-travels-home .banner {
         @apply -left-[200px];
     }
@@ -368,9 +364,9 @@
         @apply left-[200px];
     }
 
-    .element-travels-home .copy {
+    /* .element-travels-home .copy {
         @apply w-[88%] left-[6%];
-    }
+    } */
 /* 
     .element-travels-home .footer {
         @apply w-[113.5%];
@@ -447,8 +443,11 @@
 
 /* Ensure proper spacing and overflow handling */
 @media (max-width: 1023px) {
-    .element-travels-home .div {
-        /* @apply overflow-x-hidden; */
+    .element-travels-home .top-navigations {
+        @apply w-full left-0 translate-x-0
+    }
+    .element-travels-home .copy {
+        @apply w-full left-0 translate-x-0 px-5
     }
 
     .element-travels-home .frame-3 {
