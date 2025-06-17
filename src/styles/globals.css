@@ -1,0 +1,30 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500,var(--h5-16-medium-font-weight),var(--h4-16-regular-font-weight),200,600,300,var(--h3-20-semibold-font-weight),var(--h6-18-semibold-font-weight),400,var(--h2-24-semibold-font-weight)|Poppins:500,400");
+
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0px;
+  /* width: 100vw; */
+  /* overflow-x: hidden; */
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+
+a {
+  text-decoration: none;
+}

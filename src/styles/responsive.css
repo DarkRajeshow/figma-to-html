@@ -1,0 +1,566 @@
+@import "tailwindcss";
+
+.element-travels-home .div-2 {
+    @apply grid-cols-1 md:grid-cols-2 lg:grid-cols-4
+}
+
+.footer{
+    @apply w-screen;
+}
+.element-travels-home .cars,
+.element-travels-home .frame-6,
+.element-travels-home .boxes {
+    @apply grid-cols-1 md:grid-cols-1 lg:grid-cols-3
+}
+
+
+/* Responsive CSS for Travel Website */
+/* Mobile First Approach - Extra Small Devices */
+
+/* Extra Small devices (phones, 320px and up) */
+@media (max-width: 639px) {
+    .element-travels-home .top-navigations {
+        @apply left-0 w-full flex-col gap-4 top-[20px] bg-white pb-6 h-16 border-b border-b-gray-300 overflow-hidden transition-[1000ms];
+    }
+
+    .element-travels-home .div-7 {
+        @apply flex-col gap-3 w-full;
+    }
+
+    .element-travels-home .call {
+        @apply w-full h-[45px] text-sm;
+    }
+
+    .element-travels-home .geta-a-quote {
+        @apply w-full h-[45px] text-sm;
+    }
+
+    .element-travels-home .banner {
+        @apply top-[180px] -left-0 h-[400px] bg-[#76C04F] overflow-x-hidden;
+    }
+
+    .element-travels-home .overlap,
+    .element-travels-home .overlap-2,
+    .element-travels-home .overlap-3,
+    .element-travels-home .overlap-4,
+    .element-travels-home .overlap-5,
+    .element-travels-home .overlap-6 {
+        @apply h-[200px] left-0;
+    }
+
+    .element-travels-home .mercedes {
+        @apply w-auto h-[80px] top-[50px] right-[5%];
+    }
+
+    .element-travels-home .copy-3 {
+        /* @apply ; */
+        /* display: none; */
+        @apply absolute top-[200px] w-[60%] flex-col items-center justify-center m-auto left-1/2 -translate-x-1/2;
+    }
+
+    /* .element-travels-home .frame-15 {
+        @apply flex-col gap-3;
+    } */
+
+    .element-travels-home .BOOK-NOW-wrapper {
+        @apply w-full justify-center;
+    }
+
+    .element-travels-home .copy {
+        @apply w-[95%] left-[2.5%] top-[650px] gap-[60px];
+    }
+
+    .element-travels-home .text-wrapper {
+        @apply text-[32px] tracking-[-0.64px] text-center;
+    }
+
+    .element-travels-home .frame {
+        @apply flex-col gap-4;
+    }
+
+    .element-travels-home .div-2 {
+        @apply grid-cols-1 gap-4;
+    }
+
+    .element-travels-home .services-2 {
+        @apply p-[30px_20px];
+    }
+    .element-travels-home .div-5 {
+        @apply flex-col;
+    }
+
+    .element-travels-home .text-wrapper-3 {
+        @apply text-[40px];
+    }
+
+    .element-travels-home .experience-the {
+        @apply text-[32px] tracking-[-0.64px] text-center;
+    }
+
+    .element-travels-home .element {
+        @apply grid-cols-1 gap-4;
+    }
+
+    .element-travels-home .element-2 {
+        @apply h-auto;
+    }
+
+    .element-travels-home .cars {
+        @apply grid-cols-1 gap-4;
+    }
+
+    .element-travels-home .testimonials-2 {
+        @apply grid-cols-1 gap-4;
+    }
+
+    .element-travels-home .footer {
+        @apply w-screen p-[40px_20px] gap-[40px];
+    }
+
+    .element-travels-home .frame-8 {
+        @apply flex-col gap-[30px];
+    }
+
+    .element-travels-home .frame-9 {
+        @apply flex-col gap-[20px];
+    }
+
+    .element-travels-home .frame-11 {
+        @apply flex-col gap-[30px];
+    }
+
+    .element-travels-home .frame-13 {
+        @apply flex-col gap-4;
+    }
+}
+
+/* Small devices (landscape phones, 640px and up) */
+@media (min-width: 640px) and (max-width: 767px) {
+    .element-travels-home .top-navigations {
+        @apply w-[95%] left-[2.5%] top-[30px];
+    }
+
+    .element-travels-home .div-7 {
+        @apply gap-4;
+    }
+
+    .element-travels-home .banner {
+        @apply top-[160px] -left-[100px] h-[500px];
+    }
+
+    .element-travels-home .overlap,
+    .element-travels-home .overlap-2,
+    .element-travels-home .overlap-3,
+    .element-travels-home .overlap-4,
+    .element-travels-home .overlap-5,
+    .element-travels-home .overlap-6 {
+        @apply h-[500px] left-[100px];
+    }
+
+    .element-travels-home .mercedes {
+        @apply w-[250px] h-[156px] top-[60px] right-[8%];
+    }
+
+    .element-travels-home .copy-3 {
+        @apply top-[320px] left-[120px];
+    }
+
+    .element-travels-home .copy {
+        @apply w-[95%] left-[2.5%] top-[750px] gap-[80px];
+    }
+
+    .element-travels-home .text-wrapper {
+        @apply text-[42px] tracking-[-0.84px];
+    }
+
+    .footer{
+        @apply w-full mx-0; 
+    }
+    .element-travels-home .div-2 {
+        @apply grid-cols-2 gap-4;
+    }
+
+    .element-travels-home .text-wrapper-3 {
+        @apply text-[45px];
+    }
+
+    .element-travels-home .experience-the {
+        @apply text-[42px] tracking-[-0.84px];
+    }
+
+    .element-travels-home .element {
+        @apply grid-cols-2 gap-4;
+    }
+
+    .element-travels-home .cars {
+        @apply grid-cols-2 gap-4;
+    }
+
+    .element-travels-home .testimonials-2 {
+        @apply grid-cols-2 gap-4;
+    }
+
+    .element-travels-home .footer {
+        @apply w-full p-[60px_40px] gap-[50px];
+    }
+
+    .element-travels-home .frame-8 {
+        @apply gap-[40px];
+    }
+
+    .element-travels-home .frame-11 {
+        @apply gap-[30px];
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .element-travels-home .top-navigations {
+        @apply w-[92%] left-[4%] top-[40px];
+    }
+
+    .element-travels-home .banner {
+        @apply top-[150px] -left-[150px] h-[580px];
+    }
+
+    .element-travels-home .overlap,
+    .element-travels-home .overlap-2,
+    .element-travels-home .overlap-3,
+    .element-travels-home .overlap-4,
+    .element-travels-home .overlap-5,
+    .element-travels-home .overlap-6 {
+        @apply h-[580px] left-[150px];
+    }
+
+    .element-travels-home .mercedes {
+        @apply w-[280px] h-[175px] top-[70px] right-[8%];
+    }
+
+    .element-travels-home .copy-3 {
+        @apply top-[350px] left-[150px];
+    }
+
+    .element-travels-home .copy {
+        @apply w-[92%] left-[4%] top-[820px] gap-[100px];
+    }
+
+    .element-travels-home .text-wrapper {
+        @apply text-[48px] tracking-[-0.96px];
+    }
+
+    .element-travels-home .div-2 {
+        @apply grid-cols-2 gap-5;
+    }
+
+    .element-travels-home .text-wrapper-3 {
+        @apply text-[48px];
+    }
+
+    .element-travels-home .experience-the {
+        @apply text-[48px] tracking-[-0.96px];
+    }
+
+    .element-travels-home .element {
+        @apply grid-cols-2 gap-5;
+    }
+
+    .element-travels-home .cars {
+        @apply grid-cols-2 gap-5;
+    }
+
+    .element-travels-home .testimonials-2 {
+        @apply grid-cols-2 gap-5;
+    }
+
+    .element-travels-home .footer {
+        @apply w-full p-[70px_60px] gap-[60px];
+    }
+
+    .element-travels-home .frame-8 {
+        @apply gap-[50px];
+    }
+}
+
+/* Large devices (desktops, 1024px and up) */
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .element-travels-home .top-navigations {
+        @apply w-[90%] left-[5%] top-[50px];
+    }
+
+    .element-travels-home .banner {
+        @apply top-[145px] -left-[180px] h-[620px];
+    }
+
+    .element-travels-home .overlap,
+    .element-travels-home .overlap-2,
+    .element-travels-home .overlap-3,
+    .element-travels-home .overlap-4,
+    .element-travels-home .overlap-5,
+    .element-travels-home .overlap-6 {
+        @apply h-[620px] left-[180px];
+    }
+
+    .element-travels-home .mercedes {
+        @apply w-[300px] h-[187px] top-[75px] right-[8%];
+    }
+
+    .element-travels-home .copy-3 {
+        @apply top-[380px] left-[180px];
+    }
+
+    .element-travels-home .copy {
+        @apply w-[90%] left-[5%] top-[850px] gap-[110px];
+    }
+
+    .element-travels-home .text-wrapper {
+        @apply text-[50px] tracking-[-1.0px];
+    }
+
+    .element-travels-home .div-2 {
+        @apply grid-cols-3 gap-4;
+    }
+
+    .element-travels-home .text-wrapper-3 {
+        @apply text-[50px];
+    }
+
+    .element-travels-home .experience-the {
+        @apply text-[50px] tracking-[-1.0px];
+    }
+
+    .element-travels-home .element {
+        @apply grid-cols-3 gap-4;
+    }
+
+    .element-travels-home .cars {
+        @apply grid-cols-3 gap-4;
+    }
+
+    .element-travels-home .testimonials-2 {
+        @apply grid-cols-3 gap-4;
+    }
+
+    .element-travels-home .footer {
+        @apply w-[105%] p-[75px_70px] gap-[65px];
+    }
+}
+
+/* Extra Large devices (large desktops, 1280px and up) */
+@media (min-width: 1280px) and (max-width: 1535px) {
+    .element-travels-home .top-navigations {
+        @apply w-[88%] left-[6%];
+    }
+
+    .element-travels-home .banner {
+        @apply -left-[200px];
+    }
+
+    .element-travels-home .overlap,
+    .element-travels-home .overlap-2,
+    .element-travels-home .overlap-3,
+    .element-travels-home .overlap-4,
+    .element-travels-home .overlap-5,
+    .element-travels-home .overlap-6 {
+        @apply left-[200px];
+    }
+
+    .element-travels-home .copy-3 {
+        @apply left-[200px];
+    }
+
+    .element-travels-home .copy {
+        @apply w-[88%] left-[6%];
+    }
+/* 
+    .element-travels-home .footer {
+        @apply w-[113.5%];
+    } */
+}
+
+/* 2XL devices (larger desktops, 1536px and up) - Original laptop design maintained */
+@media (min-width: 1536px) {
+    /* Keep original styles for very large screens */
+}
+
+/* Additional responsive utilities */
+@media (max-width: 1023px) {
+
+    .element-travels-home .arrow-rightaa-3,
+    .element-travels-home .overlap-group-wrapper {
+        @apply w-10 h-10;
+    }
+
+    .element-travels-home .arrow-rightaa-3 {
+        @apply left-[3%] scale-[0.7];
+    }
+
+    .element-travels-home .overlap-group-wrapper {
+        @apply right-[3%] scale-[0.7];
+    }
+
+    .element-travels-home .overlap-group-3 {
+        @apply w-6 h-6 top-2 left-2;
+    }
+
+    .element-travels-home .vectora {
+        @apply top-[10px];
+    }
+
+    .element-travels-home .vectora-2 {
+        @apply left-[12px] h-[22px];
+    }
+}
+
+/* Text scaling for better readability */
+@media (max-width: 767px) {
+    .element-travels-home .text-wrapper-4 {
+        @apply text-xs leading-3;
+    }
+
+    .element-5 {
+        @apply tracking-wide
+    }
+
+    .element-travels-home .text-wrapper-6,
+    .element-travels-home .text-wrapper-7,
+    .element-travels-home .text-wrapper-8 {
+        @apply text-xl;
+    }
+
+    .element-travels-home .text-wrapper-10 {
+        @apply text-lg;
+    }
+
+    .element-travels-home .p,
+    .element-travels-home .text-wrapper-12 {
+        @apply text-sm;
+    }
+
+    .element-travels-home .short-long-term {
+        @apply w-full text-sm;
+    }
+
+    .element-travels-home .corporate-car {
+        @apply text-lg;
+    }
+}
+
+/* Ensure proper spacing and overflow handling */
+@media (max-width: 1023px) {
+    .element-travels-home .div {
+        /* @apply overflow-x-hidden; */
+    }
+
+    .element-travels-home .frame-3 {
+        @apply px-5;
+    }
+
+    .element-travels-home .services-2 {
+        @apply gap-6;
+    }
+
+    .element-travels-home .heading {
+        @apply pb-4;
+    }
+
+    .element-travels-home .frame-2 {
+        @apply w-full;
+    }
+
+    .element-travels-home .testimonials-3 {
+        @apply p-6;
+    }
+
+    .element-travels-home .copy-2 {
+        @apply h-auto px-2;
+    }
+
+    .element-travels-home .points {
+        @apply gap-4;
+    }
+
+    .element-travels-home .element-3,
+    .element-travels-home .element-4,
+    .element-travels-home .element-4-4 {
+        @apply gap-4 pb-4;
+    }
+}
+
+/* Image responsive handling */
+@media (max-width: 1023px) {
+
+    .element-travels-home .image,
+    .element-travels-home .bg-wrapper,
+    .element-travels-home .image-2 {
+        @apply h-[180px];
+    }
+
+    .element-travels-home .whatsapp-image,
+    .element-travels-home .whatsapp-image-2 {
+        @apply w-[80%] h-[140px] left-[10%];
+    }
+
+    .element-travels-home .mask-group {
+        @apply h-[160px];
+    }
+
+    .element-travels-home .overlap-group-2 {
+        @apply h-[160px];
+    }
+
+    .element-travels-home .rectangle {
+        @apply h-[100px] top-[60px];
+    }
+}
+
+/* Navigation improvements for mobile */
+@media (max-width: 767px) {
+    .element-travels-home .div-wrapper-2 {
+        @apply flex-col gap-2;
+    }
+
+    .element-travels-home .text-wrapper-17 {
+        @apply text-center;
+    }
+}
+
+/* Footer responsive adjustments */
+@media (max-width: 639px) {
+    .element-travels-home .frame-10 {
+        @apply gap-4;
+    }
+
+    .element-travels-home .frame-12 {
+        @apply gap-4;
+    }
+
+    .element-travels-home .frame-14 {
+        @apply gap-2;
+    }
+
+    .element-travels-home .shop-no-housai,
+    .element-travels-home .text-wrapper-14,
+    .element-travels-home .text-wrapper-15,
+    .element-travels-home .text-wrapper-16 {
+        @apply text-sm leading-5;
+    }
+}
+
+/* Ensure buttons remain functional on all screen sizes */
+@media (max-width: 1023px) {
+
+    .element-travels-home .booknow,
+    .element-travels-home .booknow-2,
+    .element-travels-home .BOOK-NOW-wrapper {
+        @apply min-h-[44px];
+    }
+
+    .element-travels-home .read-more {
+        @apply min-h-[44px];
+    }
+
+    .element-travels-home .geta-a-quote,
+    .element-travels-home .call {
+        @apply min-h-[44px];
+    }
+}

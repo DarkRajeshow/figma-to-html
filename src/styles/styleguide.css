@@ -1,0 +1,36 @@
+:root {
+  --secondory-grey: rgba(53, 53, 53, 1);
+  --fresh-green-for-text: rgba(53, 152, 0, 1);
+  --white: rgba(255, 255, 255, 1);
+  --primary-green: rgba(118, 192, 78, 1);
+  --h5-16-medium-font-family: "Montserrat", Helvetica;
+  --h5-16-medium-font-weight: 500;
+  --h5-16-medium-font-size: 16px;
+  --h5-16-medium-letter-spacing: 0px;
+  --h5-16-medium-line-height: 26px;
+  --h5-16-medium-font-style: normal;
+  --h3-20-semibold-font-family: "Montserrat", Helvetica;
+  --h3-20-semibold-font-weight: 600;
+  --h3-20-semibold-font-size: 20px;
+  --h3-20-semibold-letter-spacing: 0px;
+  --h3-20-semibold-line-height: 24px;
+  --h3-20-semibold-font-style: normal;
+  --h2-24-semibold-font-family: "Montserrat", Helvetica;
+  --h2-24-semibold-font-weight: 600;
+  --h2-24-semibold-font-size: 24px;
+  --h2-24-semibold-letter-spacing: 0px;
+  --h2-24-semibold-line-height: normal;
+  --h2-24-semibold-font-style: normal;
+  --h6-18-semibold-font-family: "Montserrat", Helvetica;
+  --h6-18-semibold-font-weight: 600;
+  --h6-18-semibold-font-size: 18px;
+  --h6-18-semibold-letter-spacing: 0px;
+  --h6-18-semibold-line-height: 24px;
+  --h6-18-semibold-font-style: normal;
+  --h4-16-regular-font-family: "Montserrat", Helvetica;
+  --h4-16-regular-font-weight: 400;
+  --h4-16-regular-font-size: 16px;
+  --h4-16-regular-letter-spacing: 0px;
+  --h4-16-regular-line-height: 26px;
+  --h4-16-regular-font-style: normal;
+}
