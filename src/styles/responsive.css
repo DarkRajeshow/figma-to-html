@@ -215,9 +215,9 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 1023px) {
-    .element-travels-home .top-navigations {
-        @apply w-[92%] left-[4%] top-[40px];
-    }
+    /* .element-travels-home .top-navigations {
+        @apply left-0;
+    } */
 
     .element-travels-home .banner {
         @apply top-[150px] -left-[150px] h-[580px];
@@ -284,7 +284,7 @@
 /* Large devices (desktops, 1024px and up) */
 @media (min-width: 1024px) and (max-width: 1279px) {
     .element-travels-home .top-navigations {
-        @apply w-[90%] left-[5%] top-[50px];
+        @apply w-[90%] top-[50px];
     }
 
     .element-travels-home .banner {
@@ -309,7 +309,7 @@
     }
 
     .element-travels-home .copy {
-        @apply w-[90%] left-[5%] top-[850px] gap-[110px];
+        @apply w-[90%] top-[850px] gap-[110px];
     }
 
     .element-travels-home .text-wrapper {
