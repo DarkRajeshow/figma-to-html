@@ -4,9 +4,6 @@
     @apply grid-cols-1 md:grid-cols-2 lg:grid-cols-4
 }
 
-.footer{
-    @apply w-screen;
-}
 .element-travels-home .cars,
 .element-travels-home .frame-6,
 .element-travels-home .boxes {
@@ -36,7 +33,7 @@
     }
 
     .element-travels-home .banner {
-        @apply top-[180px] -left-0 h-[400px] bg-[#76C04F] overflow-x-hidden;
+        @apply top-[180px] w-screen -left-0 h-[400px] bg-[#76C04F] overflow-x-hidden;
     }
 
     .element-travels-home .overlap,
@@ -45,7 +42,7 @@
     .element-travels-home .overlap-4,
     .element-travels-home .overlap-5,
     .element-travels-home .overlap-6 {
-        @apply h-[200px] left-0;
+        @apply h-[200px] left-0 w-full;
     }
 
     .element-travels-home .mercedes {
@@ -114,6 +111,9 @@
     }
 
     .element-travels-home .footer {
+        @apply w-screen p-[40px_20px] gap-[40px];
+    }
+    .element-travels-home .footer-bg {
         @apply w-screen p-[40px_20px] gap-[40px];
     }
 
